@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Photos Gallery</h1>
+    <button type="header button">New Image +</Img></button>
+  </header>
+  <form>
+      <h2>Insert any Image URL</h2>
+      <input type="url" id="newImgUrl" required placeholder="Img URL"/>
+      <button type="submit">Add</button>
+      <button type="reset" id="cancel-button">Reset</button>
+  </form>
+  <ul>
+    <li>
+          <img src="./img/foto1.jpg" alt="cat img paint">
+          <div class="overlay-img-link"> 
+              <a href="./img/foto1.jpg"title="See in full size" target="_blank">
+                  See in full size
+              </a>
+          </div class="overlay-img-link">
+      </li>
+      <li>
+          <img src="./img/foto2.jpg" alt="Flamingo img paint">
+          <div class="overlay-img-link"> 
+            <a href="./img/foto2.jpg"title="See in full size" target="_blank">
+                See in full size
+            </a>
+          </div class="overlay-img-link">
+    </li>
+    <li>
+        <img src="./img/foto3.jpg" alt="dogs in a bag img paint">
+        <div class="overlay-img-link"> 
+            <a href="./img/foto3.jpg"title="See in full size" target="_blank">
+                See in full size
+            </a >
+        </div class="overlay-img-link">
+    </li>
+  </ul>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
